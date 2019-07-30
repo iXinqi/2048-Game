@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+	margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 55px;
+	font-weight: 900;
+    margin: 0 auto;
+	color:#909090;
+	text-shadow:5px 5px 5px rgba(200,200,160,0.9);
+}
+
+header #newgame{
+    margin: 0px auto;
+    width: 120px;
+	font-size: 20px;
+    background-color: #bbada0;
+    border-radius: 10px;
+	cursor:pointer;
+}
+
+header #newgame:hover { 
+    background-color: #ccbeb1;
+}
+
+header p {
+    font-size: 24px;
+    margin: 0 auto;
+	color:#FF4040;
+}
+
+#container {
+    width: 445px;
+    height: 445px;
+    padding: 15px;
+    margin: 0px auto;
+    background-color: #bbada0;
+    border-radius: 10px;	
+    position: relative;
+	text-align: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #ccc0b3;
+    position: absolute;
+	font-size:50px;
+	line-height:100px;
+	text-align:center;
+	font-family:FZShuTi,Georgia;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	z-index:0;
+}
